@@ -12,7 +12,7 @@ class CsvServiceProvider extends ServiceProvider
   
     public function register()
     {
-        $this->app->bind('\CsvService', function ($app) {
+        $this->app->bind(__DIR__.'\CsvService', function ($app) {
           return new CsvService();
         });
     }
