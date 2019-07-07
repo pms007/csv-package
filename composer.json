@@ -1,0 +1,26 @@
+{
+    "name": "pymyoswe/csv",
+    "description": "CSV To Array and Array To CSV For Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pms007",
+            "email": "pymyoswe007@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pymyoswe\\Csv\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pymyoswe\\Csv\\CsvServiceProvider"
+            ]
+        }
+    }
+}
