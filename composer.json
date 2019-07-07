@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pymyoswe\\Csv\\CsvServiceProvider"
+                "Pymyoswe\\Csv\\CsvService"
             ]
         }
     }
